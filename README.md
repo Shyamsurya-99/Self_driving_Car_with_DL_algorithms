@@ -1,18 +1,12 @@
-# ROS2 Prius Self Driving Car  using AI/Deeplearning and Computer Vision
+# Self driving car with DL algorithms
 
 
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#About-this-Repository">About This Repository</a></li>
-    <li><a href="#Using-this-Repository">Using this Repository</a></li>
     <li><a href="#Course-Workflow">Course Workflow</a></li>
-    <li><a href="#Features">Features</a></li>
-    <li><a href="#Pre-Course-Requirments">Pre-Course Requirments</a></li>
-    <li><a href="#Repository-Tree">Repository Tree</a></li>
-    <li><a href="#Link-to-the-Course">Link to the Course</a></li>
-    <li><a href="#Instructors">Instructors</a></li>
-    <li><a href="#License">License</a></li>
+
   </ol>
 </details>
 
