@@ -13,7 +13,7 @@
 ## About this Repository
 A tesla Like Car in ROS2 will follow lane , Use AI to classify Sign Boards and perform Object tracking to act on the sign boards and set speed respectively
 
-Uploading ubuntu20 [Running] - Oracle VM VirtualBox 2023-06-28 01-49-02.mp4…
+
 ----
 
 ----
