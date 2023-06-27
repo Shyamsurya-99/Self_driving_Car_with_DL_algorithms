@@ -5,7 +5,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#Course-Workflow">Course Workflow</a></li>
-    <li><a href="#Contributors">Course Workflow</a></li>
+    <li><a href="#Contributors">Contributors</a></li>
 
   </ol>
 </details>
