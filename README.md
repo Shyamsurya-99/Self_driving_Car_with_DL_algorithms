@@ -15,23 +15,10 @@ A tesla Like Car in ROS2 will follow lane , Use AI to classify Sign Boards and p
 
 [![alt text](https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/Images_videos/thumbnail_1.png)](https://youtu.be/D5BkqDcfw2U "Click to Watch Intro Video on Youtube")
 ----
-## Using this Repository
-----
-**Docker**:
 
- [![alt text](https://github.com/HaiderAbasi/ROS2-Path-Planning-and-Maze-Solving/blob/master/images/linux.png)](https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/docker/running_on_linux.md "Follow the guide to setup docker on Linux")&nbsp;&nbsp;
- [![alt text](https://github.com/HaiderAbasi/ROS2-Path-Planning-and-Maze-Solving/blob/master/images/windows.png)](https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/blob/main/docker/running_on_windows.md "Follow the guide to setup docker on Windows 10")&nbsp;&nbsp;
-
-
-**Ubuntu-20.04**: 
-- Follow along the [Wiki](https://github.com/noshluk2/ROS2-Self-Driving-Car-AI-using-OpenCV/wiki/Ubuntu-20.04-Setup-Guide) guide to setup the project.
 ----
 ## Course Workflow
-#### **Ros Package**
-* World Models Creation
-* Prius OSRF gazebo Model Editing
-* Nodes , Launch Files
-* SDF through Gazebo
-* Textures and Plugins in SDF
-
-
+Primarily our Self Driving car will be composed of four key features.                     
+1) Lane Assist                              2) Cruise Control                     3) Navigating T-Junction             4) Crossing IntersectionEach feature development will comprise of two parts
+2) a) Detection: Gathering information required for that feature
+3) b) Control:  Proposing appropriate response for the information received
