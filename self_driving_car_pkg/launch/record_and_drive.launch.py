@@ -15,9 +15,9 @@ def generate_launch_description():
                 output='screen'),
 
         Node(
-                package='teleop_twist_keyboard',
-                executable='teleop_twist_keyboard',
-                name='Car_driver',
+                package='self_driving_car_pkg',
+                executable='computer_vision_node',
+                name='computer_vision',
                 output='screen'),
 
 
