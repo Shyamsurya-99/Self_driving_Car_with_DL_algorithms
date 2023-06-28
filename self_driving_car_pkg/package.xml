@@ -4,7 +4,7 @@
   <name>self_driving_car_pkg</name>
   <version>1.0.0</version>
   <description>This package is to run your ROS simulation with a prius model from gazebo with SDC features</description>
-  <maintainer email="noshluk2@gmail.com">luqman</maintainer>
+  <maintainer email="shyamsurya54@gmail.com">Shyamsurya</maintainer>
   <license>GNU-GPL</license>
 
   <depend>rclpy</depend>
