@@ -4,23 +4,7 @@ from .Detection.TrafficLights.TrafficLights_Detection import detect_TrafficLight
 import cv2
 from numpy import interp
 from .config import config
-# 4 Improvements that will be done in (Original) SDC control algorithm
-# a) lane assist had iregular steering predictions
-#    Solution : use rolling average filter
-# b) Considering road is barely 1.5 car wide. A quarter of Image width for distance from the road mid 
-#                                             from the predicted road center seems bit too harsh
-#    Solution:  Increase to half of image width
-# c) Car was drifting offroad in sharper turns causing it to lose track of road
-#    Solution: Increase weightage of distance (road_center <=> car front) from 50% to 65% 
-#              So steers more in case it drift offroad
-# d) Car not utilizing its full steering range causing it to drift offroad in sharp turns
-#    Solution: Increase car max turn capability
 
-# 2 additons to Drive_Bot.py
-# a) 1 control block added for enable/disable Sat_Nav feature
-# b) Track Traffic Light and Road Speed Limits (State)  ==> Essential for priority control mechanism 
-#                                                           That we will create for integrating Sat_Nav 
-#                                                           ability to the SDC
 
 
 from collections import deque
